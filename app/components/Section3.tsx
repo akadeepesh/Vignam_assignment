@@ -1,3 +1,4 @@
+import MyCard from "./Card";
 import React from "react";
 function Section3() {
   return (
@@ -8,6 +9,7 @@ function Section3() {
             How it works?
           </h1>
         </div>
+        <MyCard />
       </section>
     </div>
   );
