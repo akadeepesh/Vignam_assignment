@@ -7,15 +7,18 @@
 
 .card {
     color: var(--clr-neutral-100);
-    background-image: url(https://i.pinimg.com/enabled_hi/564x/d3/b6/fa/d3b6fa75258432f7c8f07bc38a7d67fc.jpg);
+    /* background-image: url(https://i.pinimg.com/enabled_hi/564x/d3/b6/fa/d3b6fa75258432f7c8f07bc38a7d67fc.jpg); */
     background-size: cover;
-    padding: 10rem 0 0;
+    /* padding: 10rem 0 0; */
     max-width: 35ch;
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 500ms ease;
 }
 
+.cd{
+      background-image: url(https://i.pinimg.com/enabled_hi/564x/d3/b6/fa/d3b6fa75258432f7c8f07bc38a7d67fc.jpg);
+}
 .card:hover,
 .card:focus-within {
     transform: scale(1.05);

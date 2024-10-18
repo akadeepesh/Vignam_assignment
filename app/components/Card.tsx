@@ -88,7 +88,7 @@ const MyCard: React.FC = () => {
   const CardDetails: CardDetail[] = [
     {
       id: 1,
-      img: "https://i.pinimg.com/564x/f8/59/13/f8591349a43faf57186a814f87f8d83a.jpg",
+      img: "https://i.pinimg.com/enabled_hi/564x/9b/74/f9/9b74f92c9c4af73d79f34962ad4efbb6.jpg",
       heading: "Copy tweet's link",
       para: "On X/Twitter, click the share icon at the bottom-right of the tweet and select 'Copy Link.' Then, paste the link into the box above.",
     },
@@ -107,15 +107,7 @@ const MyCard: React.FC = () => {
   ];
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "center",
-        gap: "20px",
-        padding: "20px",
-      }}
-    >
+    <div className="flex mt-4 flex-wrap justify-center gap-[20px] padding-[20px]">
       {CardDetails.map((card) => (
         <Card key={card.id} {...card} />
       ))}

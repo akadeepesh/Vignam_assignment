@@ -29,7 +29,7 @@ function Section1() {
             ref={inputRef}
             type="text"
             placeholder="Paste tweet link here..."
-            className="border-2 w-full focus:outline-none shadow-lg p-5 pr-20 rounded-2xl"
+            className="border-2 w-full font-light focus:outline-none shadow-lg p-5 pr-20 rounded-2xl"
           />
           <button
             onClick={handlePasteClick}

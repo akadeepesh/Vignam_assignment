@@ -15,7 +15,7 @@ function Section4() {
                                 that your  posts will always be visually striking, no matter where you share them.&hellip;
                             </p>
                         </div>
-                        <div className="card mt-14">
+                        <div className="card cd mt-14">
                             <div className="card-content">
                                 <h2 className="card-title">Something Awesome</h2>
                                 <p className="card-body text-left mt-2">
