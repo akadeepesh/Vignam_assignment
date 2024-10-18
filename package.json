@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sl-codeblaster/react-3d-animated-card": "^1.0.8",
     "framer-motion": "^11.11.9",
     "next": "14.2.15",
     "react": "^18.3.1",
