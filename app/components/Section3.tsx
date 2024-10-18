@@ -7,7 +7,7 @@ function Section3() {
                 <div className="my-40 mb-8 mx-60 ">
                     <h1 className="text-5xl  text-[#252424] text-start ">How it works? </h1>
                 </div>
-                <Card />
+                {/* <Card /> */}
             </section>
         </div>
     )
